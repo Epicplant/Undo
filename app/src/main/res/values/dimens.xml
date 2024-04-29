@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_label_margin">24dp</dimen>
+    <dimen name="fab_parent_margin">16dp</dimen>
+    <dimen name="color_picker_y_offset">96dp</dimen>
+</resources>

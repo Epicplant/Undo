@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/opacity_menu"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_opacity_0_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/fab_label_margin"
+        android:alpha="0"
+        android:clickable="false"
+        android:contentDescription="@string/normal_transparent_desc"
+        android:focusable="false"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/white_circle"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_opacity_25_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/fab_label_margin"
+        android:alpha="0"
+        android:clickable="false"
+        android:contentDescription="@string/slightly_transparent_desc"
+        android:focusable="false"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/slightly_transparent_white_circle" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_opacity_50_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/fab_label_margin"
+        android:alpha="0"
+        android:clickable="false"
+        android:contentDescription="@string/semi_transparent_desc"
+        android:focusable="false"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/semi_transparent_white_circle" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_opacity_75_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/fab_label_margin"
+        android:alpha="0"
+        android:clickable="false"
+        android:contentDescription="@string/very_transparent_desc"
+        android:focusable="false"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/very_transparent_white_circle" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_opacity_100_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/fab_label_margin"
+        android:alpha="0"
+        android:clickable="false"
+        android:contentDescription="@string/transparent_desc"
+        android:focusable="false"
+        app:fabSize="mini"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_opacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/fab_label_margin"
+        android:tint="@android:color/white"
+        android:contentDescription="@string/opacity_desc"
+        android:focusable="true"
+        app:srcCompat="@drawable/outline_opacity_24" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="@string/opacity_label"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
+</FrameLayout>
